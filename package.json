@@ -1,0 +1,30 @@
+
+{
+  "name": "compile-progress-bar",
+  "displayName": "Compile Progress Bar",
+  "description": "Shows a progress bar in VS Code while your project is compiling.",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": ">=1.50.0"
+  },
+  "categories": ["Other"],
+  "main": "extension.js",
+  "activationEvents": [
+    "onCommand:compile-progress-bar.startCompile"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "compile-progress-bar.startCompile",
+        "title": "Start Compile With Progress Bar"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
