@@ -1,4 +1,3 @@
-
 # Compile Progress Bar VS Code Extension
 
 This VS Code extension displays a progress bar while compiling your project. It simulates compile steps and visually indicates progress using VS Code's built‑in notification progress UI.
@@ -36,3 +35,4 @@ code .
 - Run: **Start Compile With Progress Bar**
 
 
+Made by Pavel Balandin M3106
